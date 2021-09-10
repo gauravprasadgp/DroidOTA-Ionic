@@ -1,0 +1,125 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+     background: #1C2331!important;
+  }
+}
+/* Navbar animation */
+
+
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+  .dataInput{
+    float:left;
+    padding-bottom: 50px;
+  }
+//  
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.fea{
+  flex: 50%;
+  
+}
+.ytplayer{
+  position: center;
+  margin-left: 20px;
+  flex: 50%;
+  text-align: center;
+    align-self: center;
+}
+@media (max-width: 600px) {
+  .flex-container{
+    flex-direction: column;
+  }
+  .ytplayer{
+    width: 100%;
+    height: auto;
+    // margin-right: 20px;
+    // margin-left: 20px;
+    text-align: center;
+    align-self: center;
+  }
+  .fea{
+    width: 100%;
+height: auto;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bbbc {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 500%;
+	animation: gradient 30s ease infinite;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+  text-align: center;
+  align-self: center;
+}
+
+.video-container::after {
+  padding-top: 56%;
+  display: block;
+  content: '';
+  text-align: center;
+  align-self: center;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  align-self: center;
+}

@@ -1,0 +1,56 @@
+.dataInput{
+  float:left;
+  padding-bottom: 50px;
+}
+#loading{ 
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  z-index: 1; 
+  width: 150px; 
+  height: 150px; 
+  margin: -75px 0 0 -75px; 
+  border: 16px solid #020202; 
+  border-radius: 50%; 
+  border-top: 16px solid #3498db; 
+  width: 120px; 
+  height: 120px; 
+  animation: spin 2s linear infinite; 
+  } 
+    
+  @keyframes spin { 
+    0% { transform: rotate(0deg); } 
+    100% { transform: rotate(360deg); } 
+  }
+  
+  .div1 {
+    width: 30px;
+    float: center;
+    height: 1px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+  }
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #3F51B5;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+  .content {
+  
+    margin: 123px auto 0px;
+    padding: 0 16px;
+   
+ 
+    
+  }

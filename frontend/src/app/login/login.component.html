@@ -1,0 +1,210 @@
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6RP9ZMMT6N"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-6RP9ZMMT6N');
+</script>
+</head>
+ 
+<div class="formGroup" >
+    
+      <div class="bbbc">
+
+        <!-- Mask & flexbox options-->
+        <div class=" d-flex justify-content-center align-items-center">
+    
+          <!-- Content -->
+          <div class="container">
+    
+            <!--Grid row-->
+            <div class="row wow fadeIn">
+    
+              <!--Grid column-->
+              <div class="col-md-6 mb-4 white-text text-center text-md-left">
+    
+                <h1 class="display-4 font-weight-bold">DroidOTA</h1>
+                <h3 style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">(anDROID On The Air)</h3>
+                
+                <br><div class="xxx">
+                 
+                 <button class="btn btn-outline-dark btn-rounded" style=" font-family:cursive; margin-bottom: 20px;margin-left: 10px; outline:none; " href="#!" role="button" (click)="nextpage()">
+                    <i class="fas fa-angle-right"></i>   &nbsp; Explore Now</button></div>
+                
+    
+                <p>
+                  <strong>A platform to build and ship applications</strong>
+                </p>
+                
+            
+    
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-md-6 col-xl-5 mb-4">
+    
+                <!--Card-->
+                <div >
+    
+                  <!--Card content-->
+                  
+    
+                </div>
+                <!--/.Card-->
+    
+              </div>
+              <!--Grid column-->
+    
+            </div>
+            <!--Grid row-->
+    
+          </div>
+          <!-- Content -->
+    
+        </div>
+        <!-- Mask & flexbox options-->
+    
+      </div>
+    
+
+ <br>
+
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+ 
+<section class="mt-5 wow fadeIn" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; background: transparent;">
+  <div class="card">
+<p-steps  [model]="otherItems" [(activeIndex)]="actIndexClickableSpecificStep" [readonly]="false"></p-steps>
+<div class="card" *ngIf="pstep1"><ul><li><h5>Click on Explore Now to continue</h5></li><li><h5>Only google accounts allowed</h5></li></ul>
+
+    <div class="p-grid p-nogutter p-justify-end ">
+       <div style="float: left; margin-right: 20px; margin-bottom: 20px;">
+  
+        <button class="btn btn btn-rounded" style=" font-family:cursive; margin-left: 10px; outline:none; " href="#!" role="button" (click)="show2()">
+          <i class="fas fa-arrow-right fa-2x"></i></button></div>
+      </div>
+</div>
+<div class="card" *ngIf="pstep2"><ul><li><h5>Design your page using inbuild Editor</h5></li><li><h5>Paste your HTML code if designed earlier</h5></li></ul>
+  <div class="p-grid p-nogutter p-justify-between">
+   <div style="float: left; margin-left: 20px;">
+    <button class="btn btn btn-rounded" style=" font-family:cursive; margin-left: 10px; outline:none; " href="#!" role="button" (click)="show1()">
+      <i class="fas fa-arrow-left fa-2x"></i></button>
+  </div>
+ <div style="float: right; margin-right: 20px; margin-bottom: 20px;">
+  <button class="btn btn btn-rounded" style=" font-family:cursive; margin-left: 10px; outline:none; " href="#!" role="button" (click)="show3()">
+    <i class="fas fa-arrow-right fa-2x"></i></button></div>
+</div>
+</div>
+<div class="card" *ngIf="pstep3" ><ul><li><h5>Click on Render</h5></li><li><h5>Change the code to suit your needs</h5></li></ul>
+  <div class="p-grid p-nogutter p-justify-between ">
+   <div style="float: left; margin-left: 20px;">
+    <button class="btn btn btn-rounded" style=" font-family:cursive; margin-left: 10px; outline:none; " href="#!" role="button" (click)="show2()">
+      <i class="fas fa-arrow-left fa-2x"></i></button>
+  </div>
+  <div style="float: right; margin-right: 20px; margin-bottom: 20px;">
+    <button class="btn btn btn-rounded" style=" font-family:cursive; margin-left: 10px; outline:none; " href="#!" role="button" (click)="show4()">
+      <i class="fas fa-arrow-right fa-2x"></i></button></div>
+</div>
+</div>
+<div class="card" *ngIf="pstep4"><ul><li><h5>Voila, all set to Build</h5></li><li><h5>Login and Hit Build to Get customised Apk Simple!</h5></li></ul>
+  <div class="p-grid p-nogutter p-justify-between">
+    <div style="float:right; margin-left: 20px; margin-bottom: 20px;">
+      <button class="btn btn btn-rounded" style=" font-family:cursive; margin-left: 10px; outline:none; " href="#!" role="button" (click)="show3()">
+        <i class="fas fa-arrow-left fa-2x"></i></button> </div>
+    
+  </div>
+</div>
+</div>
+</section>
+<br>
+
+<br>
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+        <div class="flex-container">
+        <div class="ytplayer">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/mObLQW0JjBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <br>
+    <div class="fea">
+        <h3 class="h3 text-center mb-5">Key features of DroidOTA</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-angle-right fa-2x cyan-text"></i>
+              </div>
+              <div class="col-7" style="padding: 0px;">
+                <h5 >Easy to use.</h5>
+               </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:20px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-angle-right fa-2x cyan-text"></i>
+              </div>
+              <div class="col-9" style="padding: 0px;">
+                <h5 class="feature-title">No prequisities or knowledge required.</h5>
+               
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-angle-right fa-2x cyan-text"></i>
+              </div>
+              <div class="col-9" style="padding: 0px;">
+                <h5 class="feature-title">No leangthy downloads or dealing with bugs. </h5>
+               
+              </div>
+            </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Grid column-->
+
+
+        </div>
+        <!--/Grid row-->
+      </div>
+    </div>
+      </section>
+    
+      <!--Section: Main features & Quick Start-->
+
+      <hr class="my-5">
+
+      <!--Section: Not enough-->
+      
+ 
+  <!--Main layout-->
+  <footer class="page-footer text-center " style="color: black; font-size: large;">
+
+   <p>Contact us:      <i class="fas fa-envelope fa-cyan-text"></i>&nbsp;<a style="color:black" href="mailto:droidota1@gmail.com">droidota1@gmail.com</a> </p>
+
+  </footer>

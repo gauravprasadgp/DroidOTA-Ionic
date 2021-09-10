@@ -26,6 +26,7 @@ async function queueApkGenerator(user, dataToPut, buildZipName) {
     console.log(`Done: apk task bulding ${buildZipName}`);
 };
 
+app.use('/',express.static('frontend/dist/droid-ng'))
 
 app.post("/login", (req, response) => {
     const name = req.body.displayName

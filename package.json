@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_angular":"cd frontend && npm run build",
+    "start":"npm run start_angular && node index.js "
   },
   "author": "gauravprasadgp",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^6.5.5",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "delay": "^4.4.0",

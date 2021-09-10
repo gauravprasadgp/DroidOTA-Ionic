@@ -1,0 +1,59 @@
+{
+    "user": {
+        "uid": "xk03jqWlBUU5pjkvFMC5DOP8LYC2",
+        "displayName": "VDTA SIR",
+        "photoURL": "https://lh4.googleusercontent.com/-QnZl5Kkg81E/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclEcVGBgJOXbd99QIiuwVegnNf07w/s96-c/photo.jpg",
+        "email": "testgp34@gmail.com",
+        "emailVerified": true,
+        "phoneNumber": null,
+        "isAnonymous": false,
+        "tenantId": null,
+        "providerData": [
+            {
+                "uid": "116954963701780950559",
+                "displayName": "VDTA SIR",
+                "photoURL": "https://lh4.googleusercontent.com/-QnZl5Kkg81E/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclEcVGBgJOXbd99QIiuwVegnNf07w/s96-c/photo.jpg",
+                "email": "testgp34@gmail.com",
+                "phoneNumber": null,
+                "providerId": "google.com"
+            }
+        ],
+        "apiKey": "AIzaSyBfsPuYpAGZjgrF-lrBmf6YxNyeNZGbNa4",
+        "appName": "[DEFAULT]",
+        "authDomain": "droidlogin-eee03.firebaseapp.com",
+        "stsTokenManager": {
+            "apiKey": "AIzaSyBfsPuYpAGZjgrF-lrBmf6YxNyeNZGbNa4",
+            "refreshToken": "AOvuKvRraKYjiyqXzOOCCnz0gWXjX8aUP9AWrdiPUmgFzk9n1zFgohg9EEyJ1CCpXu9DWXGKg8DtTtqTdd-wDGyXPpgu7aAe3hzuyrOHGKUe_kEwnjAh8C8Lvt14RR7ncymk3lQMMMUmvBti8lEInRJ30mqSXlderEXnls5rRzslnTngwvJiPz0-UrJKOq8SuL4oWBxYj2cI_YBO-jPRT7SKdqHotdV8C3q9NxUd2A8P0-vlRkhkrGwABPNLxGUqsoZKxbygN4Y6AJlmLROEI4clwg8iQi6DZQLLXrdz_mqeh8l4xkIJjSllaHmTw0FCajato7jCIQIUnPTbRXxE8h71-COnQ8s6ZEug9qu3gdY_HmfnmQ5yc8kr0UsVbtGqffTmqob-X09lWaeTG_XBQmSz48CIyzMbDPBNPvWpUKPTnFFU5HIFRRErBq2AmEl87TFD5U6u79uPud5oorYpPg1oCOfAPcH2mQ",
+            "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNjYmM4ZjIyMDJmNjZkMWIxZTEwMTY1OTFhZTIxNTZiZTM5NWM2ZDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiVkRUQSBTSVIiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDQuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy1RblpsNUtrZzgxRS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFBQS9BTVp1dWNsRWNWR0JnSk9YYmQ5OVFJaXV3VmVnbk5mMDd3L3M5Ni1jL3Bob3RvLmpwZyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9kcm9pZGxvZ2luLWVlZTAzIiwiYXVkIjoiZHJvaWRsb2dpbi1lZWUwMyIsImF1dGhfdGltZSI6MTYwODgxNDk3MywidXNlcl9pZCI6InhrMDNqcVdsQlVVNXBqa3ZGTUM1RE9QOExZQzIiLCJzdWIiOiJ4azAzanFXbEJVVTVwamt2Rk1DNURPUDhMWUMyIiwiaWF0IjoxNjA4ODE0OTczLCJleHAiOjE2MDg4MTg1NzMsImVtYWlsIjoidGVzdGdwMzRAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTY5NTQ5NjM3MDE3ODA5NTA1NTkiXSwiZW1haWwiOlsidGVzdGdwMzRAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.itOlxLG8Kjs6BaGOkLbYpzFgI3r3TWKg6ol6tC5_kQ6xA5oeGoqBWNvR6Zg3sU1P2--Qxpgkkr2gpq7XdbiPOXfsQd2E6xHIEzTjqRXCV_O5RZCEKXmG_ofrO6VBCrSsELBAwEVu1WpXq8zD8ERh77-6BSd_hirvUJd3W-kXJ7fUqTPkNTYwpEahjOUgTH4Gr1PpYekh6QaU0yCe7XhKDkd8HqTzoHfBeJe9qllLebjbUx30YSeHqs8rPhkBcdQhbr86eqljCRUCVyK0TYQaWKBNYcoWWl53_iXXyh8RZ4snvVwOkFF45ZdDU9d7P6Z_XA3bd8sz8SMuMPBKgzlW5w",
+            "expirationTime": 1608818573000
+        },
+        "redirectEventId": null,
+        "lastLoginAt": "1608814838200",
+        "createdAt": "1607797302591",
+        "multiFactor": {
+            "enrolledFactors": []
+        }
+    },
+    "credential": {
+        "providerId": "google.com",
+        "signInMethod": "google.com",
+        "oauthIdToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZhZGMxMDFjYzc0OThjMDljMDEwZGMzZDUxNzZmYTk3Yzk2MjdlY2IiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiMTAzNDA2NzAyOTg0MS1uY3IycjJ0c2wxcWVxb2Q5bmFqa2Y3dWJyNHUwNThlNC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjEwMzQwNjcwMjk4NDEtbmNyMnIydHNsMXFlcW9kOW5hamtmN3VicjR1MDU4ZTQuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTY5NTQ5NjM3MDE3ODA5NTA1NTkiLCJlbWFpbCI6InRlc3RncDM0QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiX3hlNkJpel9iRTlxZzRvRVN4aXRWQSIsImlhdCI6MTYwODgxNDk3MywiZXhwIjoxNjA4ODE4NTczfQ.XbPkq-1hNWZ2tZE8sQGWagXS-7c05SGXHI1hpbLy4gsig_5hma2p8Gk_37ulL9hvXKCEvlpG2UKNlQbFoMAcU1bEQqquKyaBlmhgfYpT-0pnVpJRKdQ_zCWl22w7X-WyMdiHk5yt6rl4k3Mh35143ldn-nDXUHbDKXVqb_6-42xY5QtzF_dlAcuiKiRWMyPS4pkDgndYRFDfHL7-SPpcb0uknVjDcHd53PWYgIkBGJ8o-hb7dyFacbOQCZeSLd9ct6-quMu1J8FprWbKueS0F6zs3nj-MGp8zzxuHKrDTBLgXK3Ox_1vQzxl3EOjFK9kf7p8kH-9_0Cmn2HrzaPMqQ",
+        "oauthAccessToken": "ya29.a0AfH6SMC26TM8HSY9qyrkIlES9DTg-mFqj7-Izf69fz98sp720B1HmoRTjcASuMVbyCEuK_bpIm5UlWQtxVwihB-ZbXoyVKs0wMeJPsrFRuKVzzpSAAtW_hdeaFsRdqo-H3hYLEE3wF26ooPdn7Tu7W6ZBLJcM410p_XhdU9DY9k5"
+    },
+    "additionalUserInfo": {
+        "providerId": "google.com",
+        "isNewUser": false,
+        "profile": {
+            "name": "VDTA SIR",
+            "granted_scopes": "openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile",
+            "id": "116954963701780950559",
+            "verified_email": true,
+            "given_name": "VDTA",
+            "locale": "en",
+            "family_name": "SIR",
+            "email": "testgp34@gmail.com",
+            "picture": "https://lh4.googleusercontent.com/-QnZl5Kkg81E/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclEcVGBgJOXbd99QIiuwVegnNf07w/s96-c/photo.jpg"
+        }
+    },
+    "operationType": "signIn"
+}
