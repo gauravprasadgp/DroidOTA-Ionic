@@ -1,3 +1,3 @@
-var url="http://localhost:3000"
-var url_server=" https://api.droidota.tech"
+var url="http://localhost:8080"
+var url_server="http://localhost:8080"
 export {url,url_server}; 

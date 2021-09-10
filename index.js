@@ -180,9 +180,9 @@ app.get('/download/:path', (req, res) => {
     const file = '/home/ubuntu/new_app/' + path;
     res.download(file);
 })
-app.listen(3000, () => {
+app.listen(8080, () => {
     const { default: PQueue } = require('p-queue');
     const queue = new PQueue({ concurrency: 1 });
     app.locals.queue = queue;
-    console.log('App is running on 3000')
+    console.log('App is running on 8080')
 });

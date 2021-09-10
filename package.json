@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start_angular":"cd frontend && npm run build",
+    "start_angular":"cd frontend && npm install && npm run build",
     "start":"npm run start_angular && node index.js "
   },
   "author": "gauravprasadgp",
